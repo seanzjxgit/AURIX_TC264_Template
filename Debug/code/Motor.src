@@ -1,6 +1,6 @@
 	; Module start
 	.compiler_version	"TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler v1.1r8 Build 22011964"
-	.compiler_invocation	"ctc -f cc24500a --dep-file=code/Motor.d -c99 --fp-model=2cFlnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x -D__CPU__=tc26xb -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\code -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\IncrEnc -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_components -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_device -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2012 -o code/Motor.src ../code/Motor.c"
+	.compiler_invocation	"ctc -f cc14224a --dep-file=code/Motor.d -c99 --fp-model=2cFlnrSTz -D__CPU__=tc26xb -D__CPU_TC26XB__ --core=tc1.6.x -D__CPU__=tc26xb -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\code -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Configurations -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Platform\\\\Tricore\\\\Compilers -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\If\\\\Ccu6If -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\StdIf -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Bsp -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\SysSe\\\\Math -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Service\\\\CpuGeneric\\\\_Utilities -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Asc -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Asclin\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6 -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Ccu6\\\\Timer -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\CStart -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Irq -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Cpu\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Dma -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Dma\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Flash\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12 -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\IncrEnc -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gpt12\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Atom\\\\Pwm -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Gtm\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Mtu\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Port\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\SpiMaster -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Qspi\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Scu\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Src\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Stm\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Adc -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\Vadc\\\\Std -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Impl -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_Lib\\\\DataHandling -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\iLLD\\\\TC26B\\\\Tricore\\\\_PinMap -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_common -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_components -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_device -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver -IE:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\user -g2 -w544 -w557 -t4 --language=+volatile -N0 -O0 -Y0 -Z0 --compact-max-size=200 --misrac-version=2012 -o code/Motor.src ../code/Motor.c"
 	.compiler_name		"ctc"
 	;source	'../code/Motor.c'
 
@@ -13,100 +13,164 @@ $TC16X
 	
 	.global	Motor_Init
 ; Function Motor_Init
-.L5:
+.L7:
 Motor_Init:	.type	func
 	mov	d4,#677
-.L40:
+.L57:
 	mov	d5,#1
-.L41:
+.L58:
 	mov	d6,#1
-.L42:
+.L59:
 	mov	d7,#3
 	call	gpio_init
-.L43:
+.L60:
 	mov	d4,#19
-.L44:
+.L61:
 	mov	d5,#5000
-.L45:
+.L62:
 	mov	d6,#0
 	call	pwm_init
-.L46:
+.L63:
+	mov	d4,#675
+.L64:
+	mov	d5,#1
+.L65:
+	mov	d6,#1
+.L66:
+	mov	d7,#3
+	call	gpio_init
+.L67:
+	mov	d4,#4
+.L68:
+	mov	d5,#5000
+.L69:
+	mov	d6,#0
+	call	pwm_init
+.L70:
 	ret
-.L22:
+.L31:
 	
 __Motor_Init_function_end:
 	.size	Motor_Init,__Motor_Init_function_end-Motor_Init
-.L16:
+.L20:
 	; End of function
 	
-	.sdecl	'.text.Motor.Motor_SetSpeed',code,cluster('Motor_SetSpeed')
-	.sect	'.text.Motor.Motor_SetSpeed'
+	.sdecl	'.text.Motor.MotorL_SetSpeed',code,cluster('MotorL_SetSpeed')
+	.sect	'.text.Motor.MotorL_SetSpeed'
 	.align	2
 	
-	.global	Motor_SetSpeed
-; Function Motor_SetSpeed
-.L7:
-Motor_SetSpeed:	.type	func
+	.global	MotorL_SetSpeed
+; Function MotorL_SetSpeed
+.L9:
+MotorL_SetSpeed:	.type	func
 	mov	d15,d4
-.L27:
+.L38:
 	jlt	d15,#0,.L2
-.L51:
+.L75:
 	mov	d4,#677
-.L26:
+.L37:
 	mov	d5,#1
 	call	gpio_set_level
-.L52:
+.L76:
 	mov	d4,#19
-.L53:
+.L77:
 	mov	d5,d15
-.L28:
+.L39:
 	call	pwm_set_duty
-.L29:
+.L40:
 	j	.L3
 .L2:
 	mov	d4,#677
-.L30:
+.L41:
 	mov	d5,#0
 	call	gpio_set_level
-.L54:
+.L78:
 	mov	d4,#19
-.L55:
+.L79:
 	rsub	d15,#0
 	mov	d5,d15
-.L31:
+.L42:
 	call	pwm_set_duty
 .L3:
 	ret
-.L23:
+.L32:
 	
-__Motor_SetSpeed_function_end:
-	.size	Motor_SetSpeed,__Motor_SetSpeed_function_end-Motor_SetSpeed
-.L21:
+__MotorL_SetSpeed_function_end:
+	.size	MotorL_SetSpeed,__MotorL_SetSpeed_function_end-MotorL_SetSpeed
+.L25:
+	; End of function
+	
+	.sdecl	'.text.Motor.MotorR_SetSpeed',code,cluster('MotorR_SetSpeed')
+	.sect	'.text.Motor.MotorR_SetSpeed'
+	.align	2
+	
+	.global	MotorR_SetSpeed
+; Function MotorR_SetSpeed
+.L11:
+MotorR_SetSpeed:	.type	func
+	mov	d15,d4
+.L44:
+	jlt	d15,#0,.L4
+.L84:
+	mov	d4,#675
+.L43:
+	mov	d5,#1
+	call	gpio_set_level
+.L85:
+	mov	d4,#4
+.L86:
+	mov	d5,d15
+.L45:
+	call	pwm_set_duty
+.L46:
+	j	.L5
+.L4:
+	mov	d4,#675
+.L47:
+	mov	d5,#0
+	call	gpio_set_level
+.L87:
+	mov	d4,#4
+.L88:
+	rsub	d15,#0
+	mov	d5,d15
+.L48:
+	call	pwm_set_duty
+.L5:
+	ret
+.L35:
+	
+__MotorR_SetSpeed_function_end:
+	.size	MotorR_SetSpeed,__MotorR_SetSpeed_function_end-MotorR_SetSpeed
+.L30:
 	; End of function
 	
 	.calls	'Motor_Init','gpio_init'
 	.calls	'Motor_Init','pwm_init'
-	.calls	'Motor_SetSpeed','gpio_set_level'
-	.calls	'Motor_SetSpeed','pwm_set_duty'
+	.calls	'MotorL_SetSpeed','gpio_set_level'
+	.calls	'MotorL_SetSpeed','pwm_set_duty'
+	.calls	'MotorR_SetSpeed','gpio_set_level'
+	.calls	'MotorR_SetSpeed','pwm_set_duty'
 	.calls	'Motor_Init','',0
+	.calls	'MotorL_SetSpeed','',0
 	.extern	gpio_set_level
 	.extern	gpio_init
 	.extern	pwm_init
 	.extern	pwm_set_duty
-	.calls	'Motor_SetSpeed','',0
+	.calls	'MotorR_SetSpeed','',0
 	.sdecl	'.debug_info',debug
 	.sect	'.debug_info'
-.L9:
+.L13:
 	.word	143943
 	.half	3
-	.word	.L10
+	.word	.L14
 	.byte	4
-.L8:
+.L12:
 	.byte	1
 	.byte	'../code/Motor.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'E:\\AURIX-v1.10.40-workspace\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
-	.word	.L11
+	.word	.L15
 	.byte	2,1,1,3
 	.word	180
 	.byte	4
@@ -141,7 +205,7 @@ __Motor_SetSpeed_function_end:
 	.word	326
 	.byte	6,0,7
 	.byte	'unsigned int',0,4,7
-.L24:
+.L33:
 	.byte	7
 	.byte	'int',0,4,5,7
 	.byte	'unsigned int',0,4,7,10
@@ -19504,7 +19568,7 @@ __Motor_SetSpeed_function_end:
 	.byte	0
 	.sdecl	'.debug_abbrev',debug
 	.sect	'.debug_abbrev'
-.L10:
+.L14:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,16,6,0,0,2,21,0,54,15,39,12,0,0,3,15,0,73,19,0,0,4,46,1,3,8,32,13
 	.byte	58,15,59,15,57,15,54,15,39,12,0,0,5,5,0,3,8,58,15,59,15,57,15,73,19,0,0,6,11,0,0,0,7,36,0,3,8,11,15,62
 	.byte	15,0,0,8,46,1,3,8,32,13,58,15,59,15,57,15,73,19,54,15,39,12,0,0,9,59,0,3,8,0,0,10,19,1,3,8,58,15,59,15
@@ -19516,12 +19580,12 @@ __Motor_SetSpeed_function_end:
 	.byte	0,0,30,21,1,54,15,39,12,0,0,31,5,0,73,19,0,0,32,21,1,73,19,54,15,39,12,0,0,0
 	.sdecl	'.debug_line',debug
 	.sect	'.debug_line'
-.L11:
-	.word	.L33-.L32
-.L32:
+.L15:
+	.word	.L50-.L49
+.L49:
 	.half	3
-	.word	.L35-.L34
-.L34:
+	.word	.L52-.L51
+.L51:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1
 	.byte	'E:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\infineon_libraries\\\\Infra\\\\Sfr\\\\TC26B\\\\_Reg',0
 	.byte	'E:\\\\AURIX-v1.10.40-workspace\\\\Seekfree_TC264_Opensource_Library\\\\libraries\\\\zf_driver',0
@@ -19604,171 +19668,279 @@ __Motor_SetSpeed_function_end:
 	.byte	'zf_device_wifi_uart.h',0,8,0,0
 	.byte	'zf_device_wifi_spi.h',0,8,0,0
 	.byte	'seekfree_assistant.h',0,9,0,0,0
-.L35:
-.L33:
+.L52:
+.L50:
 	.sdecl	'.debug_info',debug,cluster('Motor_Init')
 	.sect	'.debug_info'
-.L12:
+.L16:
 	.word	226
 	.half	3
-	.word	.L13
+	.word	.L17
 	.byte	4,1
 	.byte	'../code/Motor.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'E:\\AURIX-v1.10.40-workspace\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
-	.word	.L15,.L14
+	.word	.L19,.L18
 	.byte	2
-	.word	.L8
+	.word	.L12
 	.byte	3
 	.byte	'Motor_Init',0,1,10,6,1,1,1
-	.word	.L5,.L22,.L4
+	.word	.L7,.L31,.L6
 	.byte	4
-	.word	.L5,.L22
+	.word	.L7,.L31
 	.byte	0,0
 	.sdecl	'.debug_abbrev',debug,cluster('Motor_Init')
 	.sect	'.debug_abbrev'
-.L13:
+.L17:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,11,0,17,1,18,1,0,0,0
 	.sdecl	'.debug_line',debug,cluster('Motor_Init')
 	.sect	'.debug_line'
-.L14:
-	.word	.L37-.L36
-.L36:
+.L18:
+	.word	.L54-.L53
+.L53:
 	.half	3
-	.word	.L39-.L38
-.L38:
+	.word	.L56-.L55
+.L55:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/Motor.c',0,0,0,0,0
-.L39:
+.L56:
 	.byte	5,15,7,0,5,2
-	.word	.L5
+	.word	.L7
 	.byte	3,10,1,5,27,9
-	.half	.L40-.L5
+	.half	.L57-.L7
 	.byte	1,5,31,9
-	.half	.L41-.L40
+	.half	.L58-.L57
 	.byte	1,5,33,9
-	.half	.L42-.L41
+	.half	.L59-.L58
 	.byte	1,5,14,9
-	.half	.L43-.L42
+	.half	.L60-.L59
 	.byte	3,1,1,5,26,9
-	.half	.L44-.L43
+	.half	.L61-.L60
 	.byte	1,5,32,9
-	.half	.L45-.L44
+	.half	.L62-.L61
+	.byte	1,5,15,9
+	.half	.L63-.L62
+	.byte	3,1,1,5,27,9
+	.half	.L64-.L63
+	.byte	1,5,31,9
+	.half	.L65-.L64
+	.byte	1,5,33,9
+	.half	.L66-.L65
+	.byte	1,5,14,9
+	.half	.L67-.L66
+	.byte	3,1,1,5,26,9
+	.half	.L68-.L67
+	.byte	1,5,32,9
+	.half	.L69-.L68
 	.byte	1,5,1,9
-	.half	.L46-.L45
+	.half	.L70-.L69
 	.byte	3,1,1,7,9
-	.half	.L16-.L46
+	.half	.L20-.L70
 	.byte	0,1,1
-.L37:
+.L54:
 	.sdecl	'.debug_ranges',debug,cluster('Motor_Init')
 	.sect	'.debug_ranges'
-.L15:
-	.word	-1,.L5,0,.L16-.L5,0,0
-	.sdecl	'.debug_info',debug,cluster('Motor_SetSpeed')
+.L19:
+	.word	-1,.L7,0,.L20-.L7,0,0
+	.sdecl	'.debug_info',debug,cluster('MotorL_SetSpeed')
 	.sect	'.debug_info'
-.L17:
-	.word	246
+.L21:
+	.word	247
 	.half	3
-	.word	.L18
+	.word	.L22
 	.byte	4,1
 	.byte	'../code/Motor.c',0
 	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
 	.byte	'E:\\AURIX-v1.10.40-workspace\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
-	.word	.L20,.L19
+	.word	.L24,.L23
 	.byte	2
-	.word	.L8
+	.word	.L12
 	.byte	3
-	.byte	'Motor_SetSpeed',0,1,15,6,1,1,1
-	.word	.L7,.L23,.L6
+	.byte	'MotorL_SetSpeed',0,1,17,6,1,1,1
+	.word	.L9,.L32,.L8
 	.byte	4
-	.byte	'pwm',0,1,15,25
-	.word	.L24,.L25
+	.byte	'pwm',0,1,17,26
+	.word	.L33,.L34
 	.byte	5
-	.word	.L7,.L23
+	.word	.L9,.L32
 	.byte	0,0
-	.sdecl	'.debug_abbrev',debug,cluster('Motor_SetSpeed')
+	.sdecl	'.debug_abbrev',debug,cluster('MotorL_SetSpeed')
 	.sect	'.debug_abbrev'
-.L18:
+.L22:
 	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
 	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
-	.sdecl	'.debug_line',debug,cluster('Motor_SetSpeed')
+	.sdecl	'.debug_line',debug,cluster('MotorL_SetSpeed')
 	.sect	'.debug_line'
-.L19:
-	.word	.L48-.L47
-.L47:
+.L23:
+	.word	.L72-.L71
+.L71:
 	.half	3
-	.word	.L50-.L49
-.L49:
+	.word	.L74-.L73
+.L73:
 	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
 	.byte	'../code/Motor.c',0,0,0,0,0
-.L50:
+.L74:
 	.byte	5,6,7,0,5,2
-	.word	.L7
-	.byte	3,14,1,5,5,9
-	.half	.L27-.L7
+	.word	.L9
+	.byte	3,16,1,5,5,9
+	.half	.L38-.L9
 	.byte	3,1,1,5,24,7,9
-	.half	.L51-.L27
+	.half	.L75-.L38
 	.byte	3,1,1,5,36,9
-	.half	.L26-.L51
+	.half	.L37-.L75
 	.byte	1,5,22,9
-	.half	.L52-.L26
+	.half	.L76-.L37
 	.byte	3,1,1,5,33,9
-	.half	.L53-.L52
+	.half	.L77-.L76
 	.byte	1,5,38,9
-	.half	.L29-.L53
+	.half	.L40-.L77
 	.byte	3,127,1,5,24,9
-	.half	.L2-.L29
+	.half	.L2-.L40
 	.byte	3,3,1,5,37,9
-	.half	.L30-.L2
+	.half	.L41-.L2
 	.byte	1,5,22,9
-	.half	.L54-.L30
+	.half	.L78-.L41
 	.byte	3,1,1,5,33,9
-	.half	.L55-.L54
+	.half	.L79-.L78
 	.byte	1,5,1,9
-	.half	.L3-.L55
+	.half	.L3-.L79
 	.byte	3,2,1,7,9
-	.half	.L21-.L3
+	.half	.L25-.L3
 	.byte	0,1,1
-.L48:
-	.sdecl	'.debug_ranges',debug,cluster('Motor_SetSpeed')
+.L72:
+	.sdecl	'.debug_ranges',debug,cluster('MotorL_SetSpeed')
 	.sect	'.debug_ranges'
-.L20:
-	.word	-1,.L7,0,.L21-.L7,0,0
-	.sdecl	'.debug_loc',debug,cluster('Motor_Init')
+.L24:
+	.word	-1,.L9,0,.L25-.L9,0,0
+	.sdecl	'.debug_info',debug,cluster('MotorR_SetSpeed')
+	.sect	'.debug_info'
+.L26:
+	.word	247
+	.half	3
+	.word	.L27
+	.byte	4,1
+	.byte	'../code/Motor.c',0
+	.byte	'TASKING VX-toolset for AURIX Development Studio (non-commercial): C compiler',0
+	.byte	'E:\\AURIX-v1.10.40-workspace\\Seekfree_TC264_Opensource_Library\\Debug\\',0,12,1
+	.word	.L29,.L28
+	.byte	2
+	.word	.L12
+	.byte	3
+	.byte	'MotorR_SetSpeed',0,1,27,6,1,1,1
+	.word	.L11,.L35,.L10
+	.byte	4
+	.byte	'pwm',0,1,27,26
+	.word	.L33,.L36
+	.byte	5
+	.word	.L11,.L35
+	.byte	0,0
+	.sdecl	'.debug_abbrev',debug,cluster('MotorR_SetSpeed')
+	.sect	'.debug_abbrev'
+.L27:
+	.byte	1,17,1,3,8,37,8,27,8,19,15,128,70,12,85,6,16,6,0,0,2,61,0,24,16,0,0,3,46,1,3,8,58,15,59,15,57,15,54,15
+	.byte	39,12,63,12,17,1,18,1,64,6,0,0,4,5,0,3,8,58,15,59,15,57,15,73,16,2,6,0,0,5,11,0,17,1,18,1,0,0,0
+	.sdecl	'.debug_line',debug,cluster('MotorR_SetSpeed')
+	.sect	'.debug_line'
+.L28:
+	.word	.L81-.L80
+.L80:
+	.half	3
+	.word	.L83-.L82
+.L82:
+	.byte	2,1,-4,9,10,0,1,1,1,1,0,0,0,1,0
+	.byte	'../code/Motor.c',0,0,0,0,0
+.L83:
+	.byte	5,6,7,0,5,2
+	.word	.L11
+	.byte	3,26,1,5,5,9
+	.half	.L44-.L11
+	.byte	3,1,1,5,24,7,9
+	.half	.L84-.L44
+	.byte	3,1,1,5,36,9
+	.half	.L43-.L84
+	.byte	1,5,22,9
+	.half	.L85-.L43
+	.byte	3,1,1,5,33,9
+	.half	.L86-.L85
+	.byte	1,5,38,9
+	.half	.L46-.L86
+	.byte	3,127,1,5,24,9
+	.half	.L4-.L46
+	.byte	3,3,1,5,37,9
+	.half	.L47-.L4
+	.byte	1,5,22,9
+	.half	.L87-.L47
+	.byte	3,1,1,5,33,9
+	.half	.L88-.L87
+	.byte	1,5,1,9
+	.half	.L5-.L88
+	.byte	3,2,1,7,9
+	.half	.L30-.L5
+	.byte	0,1,1
+.L81:
+	.sdecl	'.debug_ranges',debug,cluster('MotorR_SetSpeed')
+	.sect	'.debug_ranges'
+.L29:
+	.word	-1,.L11,0,.L30-.L11,0,0
+	.sdecl	'.debug_loc',debug,cluster('MotorL_SetSpeed')
 	.sect	'.debug_loc'
-.L4:
-	.word	-1,.L5,0,.L22-.L5
+.L8:
+	.word	-1,.L9,0,.L32-.L9
 	.half	2
 	.byte	138,0
 	.word	0,0
-	.sdecl	'.debug_loc',debug,cluster('Motor_SetSpeed')
-	.sect	'.debug_loc'
-.L6:
-	.word	-1,.L7,0,.L23-.L7
-	.half	2
-	.byte	138,0
-	.word	0,0
-.L25:
-	.word	-1,.L7,0,.L26-.L7
+.L34:
+	.word	-1,.L9,0,.L37-.L9
 	.half	1
 	.byte	84
-	.word	.L27-.L7,.L23-.L7
+	.word	.L38-.L9,.L32-.L9
 	.half	1
 	.byte	95
-	.word	.L28-.L7,.L29-.L7
+	.word	.L39-.L9,.L40-.L9
 	.half	1
 	.byte	85
-	.word	.L2-.L7,.L30-.L7
+	.word	.L2-.L9,.L41-.L9
 	.half	1
 	.byte	84
-	.word	.L31-.L7,.L3-.L7
+	.word	.L42-.L9,.L3-.L9
 	.half	1
 	.byte	85
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('MotorR_SetSpeed')
+	.sect	'.debug_loc'
+.L10:
+	.word	-1,.L11,0,.L35-.L11
+	.half	2
+	.byte	138,0
+	.word	0,0
+.L36:
+	.word	-1,.L11,0,.L43-.L11
+	.half	1
+	.byte	84
+	.word	.L44-.L11,.L35-.L11
+	.half	1
+	.byte	95
+	.word	.L45-.L11,.L46-.L11
+	.half	1
+	.byte	85
+	.word	.L4-.L11,.L47-.L11
+	.half	1
+	.byte	84
+	.word	.L48-.L11,.L5-.L11
+	.half	1
+	.byte	85
+	.word	0,0
+	.sdecl	'.debug_loc',debug,cluster('Motor_Init')
+	.sect	'.debug_loc'
+.L6:
+	.word	-1,.L7,0,.L31-.L7
+	.half	2
+	.byte	138,0
 	.word	0,0
 	.sdecl	'.debug_frame',debug
 	.sect	'.debug_frame'
-.L56:
+.L89:
 	.word	48
 	.word	-1
 	.byte	3,0,2,1,27,12,26,0,8,26,8,27,8,30,8,29,8,28,8,16,8,17,8,24,8,25,8,31,8,32,8,33,8,34,8,35,8,36,8,37,8,38
@@ -19776,9 +19948,13 @@ __Motor_SetSpeed_function_end:
 	.sdecl	'.debug_frame',debug,cluster('Motor_Init')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L56,.L5,.L22-.L5
-	.sdecl	'.debug_frame',debug,cluster('Motor_SetSpeed')
+	.word	.L89,.L7,.L31-.L7
+	.sdecl	'.debug_frame',debug,cluster('MotorL_SetSpeed')
 	.sect	'.debug_frame'
 	.word	12
-	.word	.L56,.L7,.L23-.L7
+	.word	.L89,.L9,.L32-.L9
+	.sdecl	'.debug_frame',debug,cluster('MotorR_SetSpeed')
+	.sect	'.debug_frame'
+	.word	12
+	.word	.L89,.L11,.L35-.L11
 	; Module end

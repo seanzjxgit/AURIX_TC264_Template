@@ -6,6 +6,7 @@
 C_SRCS += \
 "../code/Led.c" \
 "../code/Motor.c" \
+"../code/Servo.c" \
 "../code/system_init.c" \
 "../code/system_loop.c" \
 "../code/test.c" 
@@ -13,6 +14,7 @@ C_SRCS += \
 COMPILED_SRCS += \
 "code/Led.src" \
 "code/Motor.src" \
+"code/Servo.src" \
 "code/system_init.src" \
 "code/system_loop.src" \
 "code/test.src" 
@@ -20,6 +22,7 @@ COMPILED_SRCS += \
 C_DEPS += \
 "./code/Led.d" \
 "./code/Motor.d" \
+"./code/Servo.d" \
 "./code/system_init.d" \
 "./code/system_loop.d" \
 "./code/test.d" 
@@ -27,6 +30,7 @@ C_DEPS += \
 OBJS += \
 "code/Led.o" \
 "code/Motor.o" \
+"code/Servo.o" \
 "code/system_init.o" \
 "code/system_loop.o" \
 "code/test.o" 
@@ -40,6 +44,10 @@ OBJS += \
 "code/Motor.src":"../code/Motor.c" "code/subdir.mk"
 	cctc -cs --dep-file="$*.d" --misrac-version=2012 -D__CPU__=tc26xb "-fE:/AURIX-v1.10.40-workspace/Seekfree_TC264_Opensource_Library/Debug/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=2 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc26xb -Y0 -N0 -Z0 -o "$@" "$<"
 "code/Motor.o":"code/Motor.src" "code/subdir.mk"
+	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
+"code/Servo.src":"../code/Servo.c" "code/subdir.mk"
+	cctc -cs --dep-file="$*.d" --misrac-version=2012 -D__CPU__=tc26xb "-fE:/AURIX-v1.10.40-workspace/Seekfree_TC264_Opensource_Library/Debug/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=2 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc26xb -Y0 -N0 -Z0 -o "$@" "$<"
+"code/Servo.o":"code/Servo.src" "code/subdir.mk"
 	astc -Og -Os --no-warnings= --error-limit=42 -o  "$@" "$<"
 "code/system_init.src":"../code/system_init.c" "code/subdir.mk"
 	cctc -cs --dep-file="$*.d" --misrac-version=2012 -D__CPU__=tc26xb "-fE:/AURIX-v1.10.40-workspace/Seekfree_TC264_Opensource_Library/Debug/TASKING_C_C___Compiler-Include_paths__-I_.opt" --iso=99 --c++14 --language=+volatile --exceptions --anachronisms --fp-model=2 -O0 --tradeoff=4 --compact-max-size=200 -g -Wc-w544 -Wc-w557 -Ctc26xb -Y0 -N0 -Z0 -o "$@" "$<"
@@ -57,7 +65,7 @@ OBJS += \
 clean: clean-code
 
 clean-code:
-	-$(RM) ./code/Led.d ./code/Led.o ./code/Led.src ./code/Motor.d ./code/Motor.o ./code/Motor.src ./code/system_init.d ./code/system_init.o ./code/system_init.src ./code/system_loop.d ./code/system_loop.o ./code/system_loop.src ./code/test.d ./code/test.o ./code/test.src
+	-$(RM) ./code/Led.d ./code/Led.o ./code/Led.src ./code/Motor.d ./code/Motor.o ./code/Motor.src ./code/Servo.d ./code/Servo.o ./code/Servo.src ./code/system_init.d ./code/system_init.o ./code/system_init.src ./code/system_loop.d ./code/system_loop.o ./code/system_loop.src ./code/test.d ./code/test.o ./code/test.src
 
 .PHONY: clean-code
 

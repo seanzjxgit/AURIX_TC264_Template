@@ -340,3 +340,5 @@ Led.o :	"E:\\AURIX-v1.10.40-workspace\\Seekfree_TC264_Opensource_Library\\code\L
 "E:\\AURIX-v1.10.40-workspace\\Seekfree_TC264_Opensource_Library\\code\Led.h" :
 Led.o :	"E:\\AURIX-v1.10.40-workspace\\Seekfree_TC264_Opensource_Library\\code\test.h"
 "E:\\AURIX-v1.10.40-workspace\\Seekfree_TC264_Opensource_Library\\code\test.h" :
+Led.o :	"E:\\AURIX-v1.10.40-workspace\\Seekfree_TC264_Opensource_Library\\code\Servo.h"
+"E:\\AURIX-v1.10.40-workspace\\Seekfree_TC264_Opensource_Library\\code\Servo.h" :

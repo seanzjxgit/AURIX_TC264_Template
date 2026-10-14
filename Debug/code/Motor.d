@@ -340,3 +340,5 @@ Motor.o :	"E:\\AURIX-v1.10.40-workspace\\Seekfree_TC264_Opensource_Library\\code
 "E:\\AURIX-v1.10.40-workspace\\Seekfree_TC264_Opensource_Library\\code\Led.h" :
 Motor.o :	"E:\\AURIX-v1.10.40-workspace\\Seekfree_TC264_Opensource_Library\\code\test.h"
 "E:\\AURIX-v1.10.40-workspace\\Seekfree_TC264_Opensource_Library\\code\test.h" :
+Motor.o :	"E:\\AURIX-v1.10.40-workspace\\Seekfree_TC264_Opensource_Library\\code\Servo.h"
+"E:\\AURIX-v1.10.40-workspace\\Seekfree_TC264_Opensource_Library\\code\Servo.h" :

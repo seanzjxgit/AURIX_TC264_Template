@@ -7,5 +7,8 @@
 #include "system_loop.h"
 
 void system_loop(){
-    Motor_SetSpeed(1000);
+//    MotorL_SetSpeed(1000);
+//    MotorL_SetSpeed(1000);
+    Servo_Ctrl(pwm);
+
 }

@@ -8,4 +8,5 @@
 
 void system_init(){
     Motor_Init();
+    Servo_Init();
 }

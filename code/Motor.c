@@ -10,14 +10,26 @@
 void Motor_Init(){
     gpio_init(MotorL_turn,GPO,1,GPO_PUSH_PULL);
     pwm_init(MotorL_pwm, 5000, 0);
+    gpio_init(MotorR_turn,GPO,1,GPO_PUSH_PULL);
+    pwm_init(MotorR_pwm, 5000, 0);
 }
 
-void Motor_SetSpeed(int pwm){
+void MotorL_SetSpeed(int pwm){
     if(pwm >= 0){
         gpio_set_level(MotorL_turn,1);
         pwm_set_duty(MotorL_pwm,pwm);
     }else{
         gpio_set_level(MotorL_turn, 0);
         pwm_set_duty(MotorL_pwm,-pwm);
+    }
+}
+
+void MotorR_SetSpeed(int pwm){
+    if(pwm >= 0){
+        gpio_set_level(MotorR_turn,1);
+        pwm_set_duty(MotorR_pwm,pwm);
+    }else{
+        gpio_set_level(MotorR_turn, 0);
+        pwm_set_duty(MotorR_pwm,-pwm);
     }
 }

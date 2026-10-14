@@ -194,6 +194,7 @@
 "libraries/infineon_libraries/Infra/Platform/Tricore/Compilers/CompilerTasking.o"
 "code/Led.o"
 "code/Motor.o"
+"code/Servo.o"
 "code/system_init.o"
 "code/system_loop.o"
 "code/test.o"

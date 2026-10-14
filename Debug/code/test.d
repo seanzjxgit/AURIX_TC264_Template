@@ -340,3 +340,5 @@ test.o :	"E:\\AURIX-v1.10.40-workspace\\Seekfree_TC264_Opensource_Library\\code\
 "E:\\AURIX-v1.10.40-workspace\\Seekfree_TC264_Opensource_Library\\code\Led.h" :
 test.o :	"E:\\AURIX-v1.10.40-workspace\\Seekfree_TC264_Opensource_Library\\code\test.h"
 "E:\\AURIX-v1.10.40-workspace\\Seekfree_TC264_Opensource_Library\\code\test.h" :
+test.o :	"E:\\AURIX-v1.10.40-workspace\\Seekfree_TC264_Opensource_Library\\code\Servo.h"
+"E:\\AURIX-v1.10.40-workspace\\Seekfree_TC264_Opensource_Library\\code\Servo.h" :

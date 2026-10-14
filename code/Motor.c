@@ -1,0 +1,23 @@
+/*
+ * Motor.c
+ *
+ *  Created on: 2026Äê10ÔÂ14ÈÕ
+ *      Author: seanz
+ */
+
+#include "Motor.h"
+
+void Motor_Init(){
+    gpio_init(MotorL_turn,GPO,1,GPO_PUSH_PULL);
+    pwm_init(MotorL_pwm, 5000, 0);
+}
+
+void Motor_SetSpeed(int pwm){
+    if(pwm >= 0){
+        gpio_set_level(MotorL_turn,1);
+        pwm_set_duty(MotorL_pwm,pwm);
+    }else{
+        gpio_set_level(MotorL_turn, 0);
+        pwm_set_duty(MotorL_pwm,-pwm);
+    }
+}
